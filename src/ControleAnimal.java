@@ -1,7 +1,7 @@
 
 
 public class ControleAnimal {
-    public static double calcularQuantidadedeComida(Animal animal){
+   public static double calcularQuantidadeComida(Animal animal) {
         return animal.getPeso() * 100;
 
     }
