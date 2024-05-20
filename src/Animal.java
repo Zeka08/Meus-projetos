@@ -33,7 +33,7 @@ public class Animal {
     public void exibirInfo() {
         System.out.println("Nome:" + nome);
         System.out.println("Raça:" + raca);
-        System.out.println("Peso:" + peso + " kg");
+        System.out.println("Peso:" + peso + "kg");
         System.out.println("Idade:" + idade + " anos");
     }
     public double calcularQuantidadeComida(){
