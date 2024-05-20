@@ -9,7 +9,7 @@ public class Main{
     do {
         System.out.println("Selecione uma opção:");
         System.out.println("1 - Registrar novo animal");
-        System.out.println("2 - Calcular quantidade de comida para animal existente");
+        System.out.println("2 - Calcular quantidade de comida para um animal");
         System.out.println("0 - Sair");
 
         opcao = scanner.nextInt();
@@ -46,7 +46,7 @@ public class Main{
      int idade = scanner.nextInt();
 
      Animal animal = new Animal(nome, raca, peso, idade);
-     System.out.print("Animal registrado com sucesso ");
+     System.out.println("Animal registrado com sucesso ");
      animal.exibirInfo();
  }
  private static void calcularQuantidadeComida(Scanner scanner){
