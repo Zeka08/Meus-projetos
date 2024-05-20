@@ -22,7 +22,7 @@ public class Main{
                 calcularQuantidadeComida(scanner);
                 break;
             case 0:
-                System.out.println("Saindo do programa...");
+                System.out.println("Saindo do aplicativo...");
                 break;
             default:
                 System.out.println("Opção invalida. Por favor, tente");
